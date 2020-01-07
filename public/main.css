@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+
+main {
+    background-image: #fff;
+    height: 100vh;
+}
+
+#secleft {
+    width: 600px;
+    margin: 0rem 2rem 0rem 2rem;
+    padding: 15rem 2rem 0rem 2rem;
+    color: rgb(62, 62, 63)
+}
+
+h2 {
+    font-size: 4.3rem;
+}
+
+p {
+    font-size: 19px;
+}
+
+#secright {
+    background-color: #fff;
+    float: right;
+    margin-top: -14rem;
+}
+
+img {
+    height: 500px;
+}
