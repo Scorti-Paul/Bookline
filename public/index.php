@@ -12,31 +12,45 @@
     <head>
 
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="" alt="">
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li><a href="#">Library</a></li>
-                    <li><a href="#">Discover</a></li>
-                    <li><a href="#">Sign in</a></li>
-                </ul>
+        <header class="container">
+            <nav class="navbar navbar-expand-lg navbar-light container">
+                <a class="navbar-brand" href="#"><img id="logo" src="../assets/images/logo.png" alt="Logo"></a>
+
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto  mt-2 mt-lg-0" id="nav-text-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Library <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Discover</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <button id="sign-in" class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign in</button>
+                    </form>
+                </div>
             </nav>
         </header>
-        <main>
+        <main class="container">
+
+            
             <section id="secleft">
-                <h2>Bookline Wep App</h2>
-                <p>My books are my knowledge. It's important to give them safe...</p>
+                <h2 id="heading1">Book's power,</h2>
+                <h2 id="heading1a">knowledge minded</h2>
+                <p id="headline">My books are my knowledge. It's important to give them safe...</p>
+                <form class="form-inline">
+                    <button id="action-call" class="btn btn-outline-success my-2 my-sm-0" type="submit">Disconer</button>
+                </form>
             </section>
+
+
+
 
             <section id="secright">
                 <img src="../assets/images/phile.svg" alt="Woman reading book">
             </section>
+
         </main>
     </body>
 
